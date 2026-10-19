@@ -8,6 +8,9 @@
   --green-800: #145340;
   --surface-white: #FFFFFF;
   --surface-alabaster: #F8FAFC;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
 }
 
 html {
