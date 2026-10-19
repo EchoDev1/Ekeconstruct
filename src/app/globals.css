@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --navy-950: #07101E;
+  --navy-900: #0A1628;
+  --navy-800: #11223E;
+  --green-900: #0D3B2E;
+  --green-800: #145340;
+  --surface-white: #FFFFFF;
+  --surface-alabaster: #F8FAFC;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--surface-alabaster);
+  color: var(--navy-900);
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+.font-serif {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+.font-mono {
+  font-family: var(--font-mono), monospace;
+}
